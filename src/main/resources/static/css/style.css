@@ -1,0 +1,42 @@
+/* Estilos generales para todo el sitio */
+body {
+  font-family: "Poppins", sans-serif; /* Aplica la fuente moderna */
+}
+
+/* --- Estilos para la página de Catálogo --- */
+.card-title {
+  font-weight: 600; /* Letra un poco más gruesa para el título */
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.product-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* --- Estilos para la página de Login/Registro --- */
+.card {
+  border: none;
+}
+
+.login-icon {
+  font-size: 3rem;
+  color: #0d6efd;
+}
+
+/* Ajustes para los formularios con íconos */
+.form-control-lg {
+  padding-left: 3rem;
+}
+
+.form-icon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #6c757d;
+}
